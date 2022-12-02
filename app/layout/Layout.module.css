@@ -1,0 +1,21 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 220px 1fr auto;
+  grid-template-rows: auto 1fr;
+  grid-row-start: auto;
+  grid-template-areas:
+    "header header header"
+    "sidebar body .";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.body {
+  grid-area: body;
+}

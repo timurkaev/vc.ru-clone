@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 
+import { withLayout } from "../app/layout/Layout";
+
 const Home: NextPage = (): JSX.Element => {
 	return <div>Home page</div>;
 };
 
-export default Home;
+export default withLayout(Home);
