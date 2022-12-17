@@ -1,3 +1,81 @@
 .header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--primary-light);
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.searchAndCreate {
+  width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerSearch {
+  display: flex;
+}
+
+.headerCreate {
+  display: flex;
+}
+
+.headerRight {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.headerRight svg {
+  cursor: pointer;
+}
+
+.menu {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.buttonCreate,
+.buttonLogin {
+  display: flex;
+  align-items: center;
+}
+
+.buttonLogin {
+  margin-left: 20px;
+}
+
+.buttonLogin > span {
+  margin-left: 10px;
+}
+
+.buttonCreate svg {
+  margin-right: 5px;
+}
+
+.authUser {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.authUser > svg {
+  margin-right: 20px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar svg {
+  margin-left: 5px;
 }

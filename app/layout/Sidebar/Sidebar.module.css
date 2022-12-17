@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: var(--sidebar-bg);
+  min-height: calc(100vh - 60px);
+}
+
+.sidebarItems {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0 15px;
+}
+
+.sidebarItem {
+  width: 200px;
+  height: 44px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 3px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.sidebarItem:hover {
+  background-color: rgb(255 255 255 / 50%);
+}
+
+.active {
+  background-color: var(--white);
+}
+
+.active:hover {
+  background-color: var(--white);
+}
